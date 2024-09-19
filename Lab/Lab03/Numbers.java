@@ -13,4 +13,8 @@ public class Numbers {
   public String toString() {
     return "I am number: " + this.id;
   }
+  public static void main(String[] args) {
+    One a = new One();
+    a.start();
+  }
 }
